@@ -39,7 +39,8 @@
 
         <activity android:name=".CustomAutocomlocat" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Plumber"></activity>
+        <activity android:name=".Plumber" />
+        <activity android:name=".utils.JatinActivity"></activity>
     </application>
 
 </manifest>
