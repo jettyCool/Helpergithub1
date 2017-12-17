@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorwhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorwhite"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="50dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center|left"
+                    app:srcCompat="@drawable/blue_arrow_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Welcome to Helper!"
+            android:textColor="#003399"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Please fill all details"
+            android:textColor="@color/colortext"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:background="@drawable/rectanglebackgd"
+            android:layout_marginTop="20dp"
+            android:hint="+91-Mobile Number"
+            android:textSize="15sp"
+            android:paddingLeft="30dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/lllogin"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/rectanglenocolorbgd"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Login / SignUp"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_arrowright"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:background="#d3d3d3"
+                android:layout_gravity="center"
+                android:gravity="center"></View>
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="@dimen/textv_or_width"
+                android:layout_height="@dimen/textv_or_height"
+                android:gravity="center"
+                android:text="OR"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/textv_or_textsize" />
+
+            <View
+                android:layout_width="50dp"
+                android:background="#d3d3d3"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:gravity="center"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/rectanglenocolorbgd"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Register As a Vendor"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="CONTINUE WITH"
+            android:textColor="@color/colortext"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/rectanglebackgd"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_facebook_icons"
+            android:textColor="@color/colordarkblue"
+            android:textStyle="bold"
+            android:textSize="13sp" />
+
+            <TextView
+
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/rectanglebackgd"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google"
+                android:drawableLeft="@drawable/ic_google_icons"
+                android:drawablePadding="10dp"
+                android:textColor="#666666"
+                android:textStyle="bold"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

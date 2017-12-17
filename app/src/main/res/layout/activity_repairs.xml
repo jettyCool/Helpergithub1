@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.helper.Repairs">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#003399"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="50dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center|left"
+                    app:srcCompat="@drawable/white_arrow_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Repairs"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    app:srcCompat="@drawable/ic_search_icon"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+       android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:background="#ffffff"
+            android:id="@+id/listrepair"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

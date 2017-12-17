@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // vender login dimensions
+    <dimen name="textv_title_width">200dp</dimen>
+    <dimen name="textv_title_height">60dp</dimen>
+    <dimen name="textv_title_textsize">25dp</dimen>
+
+    <dimen name="logo_image_width">200dp</dimen>
+    <dimen name="logo_image_height">130dp</dimen>
+    <dimen name="logo_image_marginTop">40dp</dimen>
+
+    <dimen name="textv_desc_height">70dp</dimen>
+    <dimen name="textv_desc_width">300dp</dimen>
+    <dimen name="textv_desc_textsize">21dp</dimen>
+
+    <dimen name="textv_name_width">500dp</dimen>
+    <dimen name="textv_name_height">50dp</dimen>
+    <dimen name="textv_name_textsize">26dp</dimen>
+
+    <dimen name="textv_mobileno_width">500dp</dimen>
+    <dimen name="textv_mobileno_height">50dp</dimen>
+    <dimen name="textv_mobileno_textsize">21dp</dimen>
+
+
+    <dimen name="textv_conti_width">500dp</dimen>
+    <dimen name="textv_conti_height">75dp</dimen>
+    <dimen name="textv_conti_textsize">21dp</dimen>
+    <dimen name="textv_conti_marginTop">40dp</dimen>
+
+    //---------------------------------------------------------------------
+
+    // User Login dimensions sw-600dp
+    <dimen name="textv_usertitle_width">200dp</dimen>
+    <dimen name="textv_usertitle_height">60dp</dimen>
+    <dimen name="textv_usertitle_textsize">25sp</dimen>
+
+    <dimen name="imageuserlogin_width">190dp</dimen>
+    <dimen name="imageuserlogin_height">200dp</dimen>
+
+    <dimen name="textv_userdesc_height">70dp</dimen>
+    <dimen name="textv_userdesc_width">300dp</dimen>
+    <dimen name="textv_userdesc_textsize">21sp</dimen>
+    <dimen name="textv_userdesc_marginTop">10dp</dimen>
+
+    <dimen name="textv_username_width">500dp</dimen>
+    <dimen name="textv_username_height">50dp</dimen>
+    <dimen name="textv_username_textsize">21sp</dimen>
+    <dimen name="textv_username_marginTop">20dp</dimen>
+
+
+    <dimen name="textv_usermobileno_width">500dp</dimen>
+    <dimen name="textv_usermobileno_height">50dp</dimen>
+    <dimen name="textv_usermobileno_textsize">21sp</dimen>
+    <dimen name="textv_usermobileno_marginTop">20dp</dimen>
+
+    <dimen name="textv_userconti_width">500dp</dimen>
+    <dimen name="textv_userconti_height">75dp</dimen>
+    <dimen name="textv_userconti_textsize">21sp</dimen>
+    <dimen name="textv_userconti_marginTop">40dp</dimen>
+
+    <dimen name="view1_width">90dp</dimen>
+    <dimen name="view1_height">3dp</dimen>
+
+    <dimen name="textv_or_width">50dp</dimen>
+    <dimen name="textv_or_height">50dp</dimen>
+    <dimen name="textv_or_textsize">21sp</dimen>
+
+    <dimen name="view2_width">90dp</dimen>
+    <dimen name="view2_height">3dp</dimen>
+
+    <dimen name="textv_register_width">500dp</dimen>
+    <dimen name="textv_register_height">75dp</dimen>
+    <dimen name="textv_register_textsize">21sp</dimen>
+    <dimen name="textv_register_marginTop">10dp</dimen>
+
+
+    //-------------------------------------------------------------------------------------------------
+
+
+
+    // homefragment item_layout  dimensions for large screens
+    <dimen name="image_imager1_width">95dp</dimen>
+    <dimen name="image_imager1_height">80dp</dimen>
+
+    //----------------------------------------------------------------------------------------
+
+
+    // homefragment recsecdown_layout  dimensions for large screens
+    <dimen name="image_imager2_width">105dp</dimen>
+    <dimen name="image_imager2_height">85dp</dimen>
+
+    //----------------------------------------------------------------------------------------
+
+
+
+</resources>

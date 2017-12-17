@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.helper.Plumber">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#003399"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="50dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center|left"
+                    app:srcCompat="@drawable/white_arrow_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plumber"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center|right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ONE LAST STEP"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        >
+
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:paddingRight="20dp"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <TextView
+            android:id="@+id/tvpldesc"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/rectanglebackgd"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+        android:paddingLeft="20dp"
+            android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+            android:layout_marginBottom="8dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectanglebackgd"
+            android:layout_height="wrap_content">
+
+        <EditText
+
+            android:paddingLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Landmark" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectanglebackgd"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:paddingLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Locality" />
+
+        </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:paddingRight="10dp"
+                    android:textColor="#337ae3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="change" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="50dp">
+
+        <CheckBox
+            android:id="@+id/checkb"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:button="@drawable/custom_checkbox"
+            android:scaleX="3"
+            android:scaleY="3"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llcontinue"
+        android:orientation="horizontal"
+        android:background="#745672a9"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="Continue with this address"
+       android:gravity="center"
+       android:textColor="@color/colorwhite" />
+
+    </LinearLayout>
+
+</LinearLayout>

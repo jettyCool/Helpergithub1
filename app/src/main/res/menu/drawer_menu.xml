@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            ></item>
+
+
+        <item
+            android:id="@+id/notification_id"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notification"
+            ></item>
+
+        <item
+            android:id="@+id/dashboard_id"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="dashboard"
+            ></item>
+
+    </group>
+
+
+        <item android:title="Social">
+            <menu>
+
+                <item
+                    android:id="@+id/dash_id"
+                    android:icon="@drawable/ic_dashboard_black_24dp"
+                    android:title="dash"
+                    ></item>
+
+                <item
+                    android:id="@+id/note_id"
+                    android:icon="@drawable/ic_notifications_black_24dp"
+                    android:title="note"
+                    ></item>
+
+                <item
+                    android:id="@+id/home_nid"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="Home"
+                    ></item>
+
+                <item
+                    android:id="@+id/dash_iddd"
+                    android:icon="@drawable/ic_dashboard_black_24dp"
+                    android:title="dash"
+                    ></item>
+
+
+
+            </menu>
+        </item>
+
+
+
+</menu>
