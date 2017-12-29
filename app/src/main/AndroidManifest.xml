@@ -41,7 +41,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Plumber" />
         <activity android:name=".utils.JatinActivity" />
-        <activity android:name=".Jatinwooh"></activity>
+        <activity android:name=".Jatinwooh" />
+        <activity android:name=".Jatintestinggithub"></activity>
     </application>
 
 </manifest>
